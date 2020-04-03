@@ -16,7 +16,7 @@
 
                     <p><strong>Name : </strong>{!! Auth::user()->name!!}</p>
                     <p><strong>Email : </strong>{!! Auth::user()->email!!}</p>
-                    <a href="#" class="btn btn-primary">Product Management</a>
+                    <a href="admin/CreateProduct" class="btn btn-primary">Product Management</a>
                     <a href="#" class="btn btn-success">Home</a>
                 </div>
             </div>
